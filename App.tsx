@@ -4,7 +4,7 @@ import { SafeAreaView, Text } from 'react-native';
 // import { Container } from './styles';
 
 const App: FC = () => {
-  const backgroundStyle = "container h-12 bg-slate-300 flex-1"
+  const backgroundStyle = "container h-12 bg-slate-400 flex-1"
   return (
     <>
       <SafeAreaView className={backgroundStyle}>
