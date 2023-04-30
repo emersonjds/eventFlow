@@ -1,31 +1,10 @@
-import { ViewProps } from "react-native";
+
 import styled from "styled-components/native";
-import {
-    color,
-    flex,
-    space,
-    SpaceProps,
-    ColorProps,
-    HeightProps,
-    FlexboxProps,
-    BorderProps,
-    BorderRadiusProps,
-    WidthProps,
-    PositionProps,
-} from "styled-system";
+
 import Colors from "../Contants";
+import { BoxProps } from "./types";
+import { color, flex, space } from "styled-system";
 
-
-type BoxProps =
-    | SpaceProps
-    | ColorProps
-    | HeightProps
-    | ViewProps
-    | BorderProps
-    | BorderRadiusProps
-    | FlexboxProps
-    | WidthProps
-    | PositionProps;
 
 export const Box = styled.View<BoxProps>`
   ${color}
